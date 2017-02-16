@@ -15,7 +15,7 @@ public class Product implements Serializable{
 	private String category;
 	private long unitsInStock;
 	private long unitsInOrder;
-	private boolean discounted;
+	private boolean discountinued;
 	private String condition;
 	
 	public Product() {
@@ -92,12 +92,12 @@ public class Product implements Serializable{
 		this.unitsInOrder = unitsInOrder;
 	}
 
-	public boolean isDiscounted() {
-		return discounted;
+	public boolean isDiscountinued() {
+		return discountinued;
 	}
 
-	public void setDiscounted(boolean discounted) {
-		this.discounted = discounted;
+	public void setDiscountinued(boolean discountinued) {
+		this.discountinued = discountinued;
 	}
 
 	public String getCondition() {
